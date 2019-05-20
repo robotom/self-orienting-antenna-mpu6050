@@ -4,32 +4,24 @@ Prototype software to orient antenna vertically no matter the orientation of the
 MPU6050 is the main GYRO/Accelerometer hardware.
 
 VIEW ----> TEST.MOV for operational prototype. 
-# NEED TO UPLOAD THIS
 _____________________________________________________________________________
-
 Original framework for Wire/i2c developed by JohnChi on August 17, 2014 = public domain. 
 I expanded this code to suit my prototype on 25-Apr-2019.
-
 _____________________________________________________________________________
-
 MPU6050 WIRING:
 VIN to 5v. Some MPU6050 modules use 3.3 but this board seems to be tolerant. 
 GND to GND.
 SDA & SCL go to the dedicated pins on the Mega which is what I am testing on; but on other boards this is usually analog 4 and 5.
 INT should go to interrupt --> on the Mega this is D2,3,18, 19, 20, 21. Can be left broken.
 _____________________________________________________________________________
-
-//  I've opted not to use the MPU6050 library, I was getting an error which timed it out for whatever reason so this is the more reliable method. I suspect there was something wrong with the library.
-
+I've opted not to use the MPU6050 library, I was getting an error which timed it out for whatever reason so this is the more reliable method. I suspect there was something wrong with the library.
 _____________________________________________________________________________
-
 IT IS IMPORTANT TO NOTE THAT THIS CODE IS USING A MICRO SERVO THAT IS LIMITED TO 180 DEGREES OF MOTION.
 SO ALL OF THE CODE IS BASED AROUND THIS LIMITATION. 
 IF I HAD A STEPPER OR CONTINUOUS SERVO ON HAND I WOULD HAVE ADJUSTED THE CODE ACCORDINGLY; WHICH ISN'T THAT DIFFICULT TO IMPLEMENT. 
-
 _____________________________________________________________________________
 
-# CODE BEGINS BELOW:
+# RAW CODE PASTE BELOW (SEE .INO IN REPO FOR ARDUINO USE):
 
 //MPU6050
 #include<Wire.h>
