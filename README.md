@@ -5,7 +5,7 @@ MPU6050 is the main GYRO/Accelerometer hardware.
 
 VIEW ----> TEST.MOV for operational prototype. 
 _____________________________________________________________________________
-Original framework for Wire/i2c developed by JohnChi on August 17, 2014 = public domain. 
+Original framework for Wire/i2c/MPU6050 example sketch developed by JohnChi on August 17, 2014 = public domain. 
 I expanded this code to suit my prototype on 25-Apr-2019.
 _____________________________________________________________________________
 MPU6050 WIRING:
