@@ -1,9 +1,9 @@
-## self-orienting-antenna-mpu6050  
+### self-orienting-antenna-mpu6050  
 GIT Blurb:   
 Prototype software to orient antenna vertically no matter the orientation of the body (180deg servo limit) to which it is connected.  
 MPU6050 is the main GYRO/Accelerometer hardware.  
 
-VIEW ----> TEST.MOV for operational prototype.   
+**VIEW ----> TEST.MOV for operational prototype.**   
 _____________________________________________________________________________
 Original framework for Wire/i2c/MPU6050 example sketch developed by JohnChi on August 17, 2014 = public domain.   
 I expanded this code to suit my prototype on 25-Apr-2019.  
@@ -21,7 +21,7 @@ SO ALL OF THE CODE IS BASED AROUND THIS LIMITATION.
 IF I HAD A STEPPER OR CONTINUOUS SERVO ON HAND I WOULD HAVE ADJUSTED THE CODE ACCORDINGLY; WHICH ISN'T THAT DIFFICULT TO IMPLEMENT.   
 _____________________________________________________________________________
 
-## RAW CODE PASTED BELOW (SEE .INO IN REPO FOR ARDUINO USE):  
+### RAW CODE PASTED BELOW (SEE .INO IN REPO FOR ARDUINO USE):  
 
 //MPU6050  
 #include<Wire.h>  
