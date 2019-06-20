@@ -14,7 +14,7 @@ GND to GND.
 SDA & SCL go to the dedicated pins on the Mega which is what I am testing on; but on other boards this is usually analog 4 and 5.   
 INT should go to interrupt --> on the Mega this is D2,3,18, 19, 20, 21. Can be left broken.  
 _____________________________________________________________________________
-I've opted not to use the MPU6050 library, I was getting an error which timed it out for whatever reason so this is the more reliable method. I suspect there was something wrong with the library.
+I've opted not to use the MPU6050 library, I was getting an error which timed it out for whatever reason so this is the more reliable method. I suspect there was something wrong within the library.
 _____________________________________________________________________________
 IT IS IMPORTANT TO NOTE THAT THIS CODE IS USING A MICRO SERVO THAT IS LIMITED TO 180 DEGREES OF MOTION.  
 SO ALL OF THE CODE IS BASED AROUND THIS LIMITATION.   
